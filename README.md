@@ -1,6 +1,6 @@
-# Quasar App (101ta28.com)
+# [101ta28.com](https://www.101ta28.com/)
 
-[My Site](www.101ta28.com)
+My Site
 
 ## Install the dependencies
 ```bash
