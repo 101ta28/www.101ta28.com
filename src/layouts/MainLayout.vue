@@ -12,7 +12,9 @@
           @click="toggleLeftDrawer"
         />
 
-        <q-toolbar-title> 101ta28's Portfolio </q-toolbar-title>
+        <q-toolbar-title v-if="$q.platform.is.desktop">
+          101ta28's Portfolio
+        </q-toolbar-title>
 
         <q-space />
 
