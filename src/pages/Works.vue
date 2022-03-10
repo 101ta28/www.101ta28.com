@@ -8,7 +8,7 @@
     <h5>私が開発に携わったものです。</h5>
     <div class="row items-start q-gutter-md">
       <q-card flat bordered class="my-card">
-        <q-img src="img/ar_paper.jpg" />
+        <q-img :ratio="8/13" src="img/ar_paper.jpg" />
         <q-card-section>
           <div class="text-overline text-orange-9">2019年頃</div>
           <div class="text-h6">室内情報可視化の研究</div>
@@ -30,7 +30,7 @@
       </q-card>
 
       <q-card flat bordered class="my-card">
-        <q-img src="img/cirkit_hp.png" />
+        <q-img :ratio="8/13" src="img/cirkit_hp.png" />
         <q-card-section>
           <div class="text-overline text-orange-9">2020年6月頃</div>
           <div class="text-h6">ホームページ再構築</div>
@@ -60,7 +60,7 @@
       </q-card>
 
       <q-card flat bordered class="my-card">
-        <q-img src="img/sakito_hp.png" />
+        <q-img :ratio="8/13" src="img/sakito_hp.png" />
         <q-card-section>
           <div class="text-overline text-orange-9">2020年10月頃</div>
           <div class="text-h6">学生向けアンケートサイトの保守管理</div>
@@ -96,9 +96,6 @@
 .my-card {
   width: 100%;
   max-width: 250px;
-}
-.my-card-sp {
-  width: 100%;
 }
 </style>
 
